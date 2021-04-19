@@ -21,5 +21,5 @@ summary = (tomatos * 3) + (cucumbers * 2) + (colas * 5) + (chickens * 20)
 # summaryvat = (tomatos * 3) + (cucumbers * 2) + (colas * 5) + (chickens * 20) * 1.17
 
 print("\nYou have to pay: " + str(summary) + " NIS without VAT.")
-print("You have to pay: " + str("%.2f" % (summary*1.17)) + " NIS with VAT.")
+print("You have to pay: " + str("%.2f" % (summary*1.17)) + " NIS with 17% VAT.")
 # "%.2f" - 2 floats
