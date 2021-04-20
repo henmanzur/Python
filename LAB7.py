@@ -35,18 +35,18 @@ for i in range(turns):
     a20 = 20
     if (cube1 == 6 and cube2 == 6):
         print("-------------------------------\nYou won " + str(a1000) + " ILS !")
-        print("You have now: " + str(money % 3 + int(a1000)) + " ILS, This amount includes your change.\n-------------------------------\n")
+        print("You have now: " + str(money % 3 + int(a1000)) + " ILS, includes your change.\n-------------------------------\n")
     elif (cube1 == cube2):
         print("-------------------------------\nYou won " + str(a100) + " ILS !")
-        print("You have now: " + str(money % 3 + int(a100)) + " ILS, This amount includes your change.\n-------------------------------\n")
+        print("You have now: " + str(money % 3 + int(a100)) + " ILS, includes your change.\n-------------------------------\n")
     elif (cube1 == 1 and cube2 == 2):
         print("-------------------------------\nYou won " + str(a60) + " ILS !")
-        print("You have now: " + str(money % 3 + int(a60)) + " ILS, This amount includes your change.\n-------------------------------\n")
+        print("You have now: " + str(money % 3 + int(a60)) + " ILS, includes your change.\n-------------------------------\n")
     elif (cube1 != cube2 and cube1 == 1):
         print("-------------------------------\nYou won " + str(a20) + " ILS !")
-        print("You have now: " + str(money % 3 + int(a20)) + " ILS, This amount includes your change.\n-------------------------------\n")
+        print("You have now: " + str(money % 3 + int(a20)) + " ILS, includes your change.\n-------------------------------\n")
     elif (cube2 != cube1 and cube2 == 2):
         print("-------------------------------\nYou won " + str(a40) + " ILS !")
-        print("You have now: " + str(money % 3 + int(a40)) + " ILS, This amount includes your change.\n-------------------------------\n")
+        print("You have now: " + str(money % 3 + int(a40)) + " ILS, includes your change.\n-------------------------------\n")
     else:
         print("-------------------------------\nYou lose !\n-------------------------------\n")
