@@ -13,7 +13,7 @@ choise = input("\nMenu:\n-----\n1.Insert Number and ** it by 3\n2.Insert 4 IPs t
 
 if(choise == "1"):
     CHOOSE1 = int(input("Insert Number: \n"))
-    print("The summary of " + str(CHOOSE1) + "**3 is: " + str(CHOOSE1**3))
+    print("The summary of " + str(CHOOSE1) + "³ is: " + str(CHOOSE1**3))
 elif(choise == "2"):
     list_ip = []
     list_ip.append(input("Enter new IP: "))
