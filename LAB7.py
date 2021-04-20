@@ -24,7 +24,7 @@ else:
 
 for i in range(turns):
     print("Round Number " + str(i+1) + " :")
-    sleep(4)
+    sleep(3)
     cube1 = randint(1, 6)
     cube2 = randint(1, 6)
     print("Cube 1: " + str(cube1) + " \nCube 2: " + str(cube2))
