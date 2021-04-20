@@ -10,4 +10,4 @@ Sample String : "Net4U, is the best place…in the world" Output :
  …in the world"
 '''
 # 1.
-print("1.\nNet4U, is the best place...in the world")
+print("1.\nNet4U, is the best place\n     ...in the world")
