@@ -8,6 +8,7 @@ Sample Output :
 Current date and time :
 2014-07-05 14:34:14
 '''
+from datetime import datetime
 # 2.
 now = datetime.now()
 current_time = now.strftime("%H:%M:%S")
