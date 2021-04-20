@@ -9,5 +9,6 @@ Sample filename : abc.java
 Output : java
 '''
 # 4.
-filename = input("\n4.\nEnter a file name: ")
-print(str(filename) + ".java")
+filename = input("\n4.\nEnter the file name and extension: ")
+f_extns = filename.split(".")
+print ("The extension of the file is : " + repr(f_extns[-1]))

@@ -92,10 +92,9 @@ filename = input("\n4.\nEnter a file name: ")
 print(str(filename) + ".java")
 
 # 5.
-# num = int(input('Enter in a value: '))
-# total = 0
-#                                  נלקח מהאינטרנט
-# for i in range(0, num):
-#     total += int(str(num) + i*str(num))
-
-#acceptint = int(input("Enter a number: \n"))
+a = int(input("5.\nInput an integer : "))
+n1 = int( "%s" % a )
+n2 = int( "%s%s" % (a,a) )
+n3 = int( "%s%s%s" % (a,a,a) )
+print(str(n1) + "+" + str(n2) + "+" + str(n3) + "\n = ")
+print (n1+n2+n3)
