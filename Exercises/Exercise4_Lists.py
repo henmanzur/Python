@@ -80,7 +80,7 @@ my_list8 = list("1234567") # כל תו תופס תא ברשימה
 print(my_list8)
 
 #.join()
-my_string = ''.join(my_list8) # בניית מחרוזת מרשימה
+my_string = ''.join(my_list8) # (יעשה רווח בין כל תא ברשימה) בניית מחרוזת מרשימה
 print(my_string)
 my_string2 = 'A'.join(my_list8) # בניית מחרוזת מרשימה
 print(my_string2)
