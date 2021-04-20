@@ -115,3 +115,28 @@ l = [1,3,5]
 print(type(n)())
 print(type(d)())
 print(type(l)())
+
+# 9.
+
+# 10.
+
+# 11.
+
+# 12.
+
+# 13.
+list = [1,2,3,4,5,6,7]
+
+sum = 0
+for i in range(len(list)):
+    sum=sum+list[i]
+
+print(sum)
+
+# 14.
+list = ['Red', 'Green', 'White', 'Black', 'Pink', 'Yellow']
+
+list.pop(5)
+list.pop(4)
+list.pop(0)
+print(list)
