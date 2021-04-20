@@ -98,3 +98,20 @@ n2 = int( "%s%s" % (a,a) )
 n3 = int( "%s%s%s" % (a,a,a) )
 print(str(n1) + "+" + str(n2) + "+" + str(n3) + "\n = ")
 print (n1+n2+n3)
+
+# 6.
+num = int(input("\nEnter a number: "))
+if (num%2 == 0):
+    print("\nThis number is even\n")
+else:
+    print("\nThis number is odd")
+# 7.
+
+# 8.
+n = 20
+d = {"x":200}
+l = [1,3,5]
+# ברגע שרושמים בtype עוד סוגריים הוא מדפיס את משתנים ריקים אבל מאותו הסוג
+print(type(n)())
+print(type(d)())
+print(type(l)())
