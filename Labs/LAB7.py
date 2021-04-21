@@ -26,7 +26,7 @@ else:
 price = 0
 for i in range(turns):
     print("Round Number " + str(i+1) + " :")
-    print("The Dealer Rolling the Cubes...\n")
+    print("The Dealer Rolling the Cubes..\n")
     sleep(3)
     cube1 = randint(1, 6)
     cube2 = randint(1, 6)
