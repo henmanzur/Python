@@ -13,7 +13,7 @@ from time import sleep
 
 print("\n-------------------------------\n🎲 Welcome to my Cube game! 🎲\n    Each turn cost 3 ILS\n-------------------------------")
 money = int(input("Enter How much money do you have: "))
-turns =(money//3)
+turns = (money//3)
 
 sleep(2)
 if(money >= 3):
