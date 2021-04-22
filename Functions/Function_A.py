@@ -118,6 +118,10 @@ def my_function(service,name="Hen"):
 
 my_function("ping","boss")
 my_function("ssh")
+#############################################################
+            על מנת למשוך פונקציה מקובץ לקובץ
+                        לדוגמה:
+from LAB9.py import Menu
 '''
 
 def Market(): # ככה נרשמת פונקציה
