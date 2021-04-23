@@ -42,7 +42,6 @@ def Menu():
             print("\nGood Bye.")
             break
 
-
 def DogDetails():
     while (True):
         dog1 = "Rex"
@@ -73,7 +72,6 @@ def FriendsList():
     while(True):
         for i in range(5):
             friend_list.append(input("Enter a friend's name: "))
-
         name = input("\nEnter a new name of friend: ")
         if (name in friend_list):
             print("\n" + name + " is already in your Friend list.")
@@ -89,14 +87,14 @@ def FriendsList():
         else:
             continue
 
-
 def N_Azzeret():
     while(True):
-        num = int(input("Enter a number: "))
+        num = int(input("Enter a number to calculate his Azzeret: "))
         sum = 1
         for i in range(1, num + 1):
             sum = sum * i
-        print(str(num) + " Factorial is: " + str(sum) + "\n")
+
+        print(str(num) + " Azzeret is: " + str(sum) + "\n")
 
         exit = input("\nDo you want to exit? yes/no\n")
         if (exit == "yes" or exit == "y"):
