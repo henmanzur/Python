@@ -1,3 +1,6 @@
+##########################
+# File Handling - Part 1 #
+##########################
 '''
 #‘r’ – Read mode which is used when the file is only being read
 #‘w’ – Write mode which is used to edit and write new information to the file (any existing files with the same name will be erased when this mode is activated)
