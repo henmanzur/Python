@@ -9,9 +9,9 @@ Sample value of n is 5
 Expected Result : 615
 '''
 # 5.
-a = int(input("5.\nInput an integer : "))
-n1 = int( "%s" % a )
-n2 = int( "%s%s" % (a,a) )
-n3 = int( "%s%s%s" % (a,a,a) )
-print(str(n1) + "+" + str(n2) + "+" + str(n3) + "\n = ")
-print (n1+n2+n3)
+n=int(input("Enter a number 1-9: "))
+print(n + (n*10+n) + (n*100+n*10+n))
+
+#n = 5
+#n*10+n = 5*10+5 = 55
+#n*100+n*10+n = 5*100+5*10+5 = 505+50 = 555
