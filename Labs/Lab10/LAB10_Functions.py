@@ -44,7 +44,7 @@ def Main_Menu():
         if (exit_main_menu == "y" or exit_main_menu == "Y" or exit_main_menu == "yes" or exit_main_menu == "YES"):
             break
         else:
-            print("\nWelcome Back!")
+            print("\n-------------------\nWelcome Back! 👋")
 
     print("\nGood Bye.")
 
@@ -153,7 +153,7 @@ Enter your Choise: ''')
         elif ip_choise == "4":
             print_ips()
         elif ip_choise == "5":
-            print("\nWelcome Back!")
+            print("\n-------------------\nWelcome Back! 👋")
             Main_Menu()
         else:
             print("\nEnter 1-5 only ! ❌\n-------------------")
@@ -163,7 +163,7 @@ Enter your Choise: ''')
             print("\nGood Bye.")
             exit()
         else:
-            print("\nWelcome Back!")
+            print("\n-------------------\nWelcome Back! 👋")
 
 
 
@@ -255,7 +255,7 @@ Enter your Choise: ''')
         elif dns_choise == "5":
             print_dict()
         elif dns_choise == "6":
-            print("\nWelcome Back!")
+            print("\n-------------------\nWelcome Back! 👋")
             Main_Menu()
         else:
             print("\n\nEnter 1-6 only ! ❌\n-------------------")
@@ -265,7 +265,7 @@ Enter your Choise: ''')
             print("\nGood Bye.")
             exit()
         else:
-            print("\nWelcome Back!")
+            print("\n-------------------\nWelcome Back! 👋")
 
 
 #######################################################  -  Files System Menu  -  #######################################################
@@ -274,18 +274,18 @@ def delete_file(file):
     filename = "C:/Users/Hen-PC/Desktop/Networking Course/Python/pythonProject/Python_Net4U_/Labs/Lab10/File_System/" + file + ".txt"
     if os.path.exists(filename):
         os.remove(filename)
-        print("\nFile Deleted")
+        print("\nFile Deleted.✔")
     else:
         print("\nThe file does not exist")
 
 def create_file(file):
     f = open("C:/Users/Hen-PC/Desktop/Networking Course/Python/pythonProject/Python_Net4U_/Labs/Lab10/File_System/" + file + ".txt" , "x")
     f.close()
-
+    print("\nFile Created. ✔")
 def read_file(file):
     filename = "C:/Users/Hen-PC/Desktop/Networking Course/Python/pythonProject/Python_Net4U_/Labs/Lab10/File_System/" + file + ".txt"
     file = open(filename, "r")
-    print("\n" + file.read() + "\n")
+    print("\n" + file.read() + "\n----------------------\nDone. ✔")
     file.close()
 
 def write_file(file):
@@ -293,13 +293,14 @@ def write_file(file):
     file = open(filename, "w")
     file.write(input("Enter IP: ") + "\n" + input("Enter IP: "))
     file.close()
+    print("The IP addresses were successfully registered. ✔")
 
 def append_file(file):
     filename = "C:/Users/Hen-PC/Desktop/Networking Course/Python/pythonProject/Python_Net4U_/Labs/Lab10/File_System/" + file + ".txt"
     file = open(filename, "a")
     file.write("\n" + input("Enter IP: ") + "\n" + input("Enter IP: "))
     file.close()
-
+    print("The IP addresses were successfully appended. ✔")
 def file_menu():
 
     while True:
@@ -326,7 +327,7 @@ Enter your Choise: ''')
         elif file_choise == "5":
             delete_file(input("Enter file name: "))
         elif file_choise == "6":
-            print("\nWelcome Back!")
+            print("\n-------------------\nWelcome Back! 👋")
             Main_Menu()
         else:
             print("\n\nEnter 1-6 only ! ❌\n-------------------")
@@ -336,6 +337,6 @@ Enter your Choise: ''')
             print("\nGood Bye.")
             exit()
         else:
-            print("\nWelcome Back!")
+            print("\n-------------------\nWelcome Back! 👋")
 
 #######################################################  -  END  -  #######################################################
