@@ -19,11 +19,11 @@ filename = "C:/Users/Hen-PC/Desktop/Networking Course/Python/pythonProject/Pytho
 file = open(filename, "r")
 print(file.readlines()[2])  # על מנת להדפיס שורה מסויימת 0 = שורה ראשונה
 # print(file.read()[0])  # על מנת להדפיס תו מסויים 0 = תו ראשון
-# print(file.read(3))  # על מנת להדפיס את שלושת התווים הראשונים 1 = תו ראשון
+# print(file.read(3))  # על מנת להדפיס את שלושת התווים הראשונים, 1 = תו ראשון
 file.close()
 
 #########################
 ##Create a empty file
-# f = open("C:/Users/אידן חכימי/Documents/Pycharm/NET4U.txt", "x")
+# f = open("C:/Users/Hen-PC/Desktop/Networking Course/Python/pythonProject/Python_Net4U_/File Handling/Files/hello5.txt", "x")
 # f.close()
 
