@@ -5,8 +5,8 @@
 'x' - Creates file | open(full path of file , "x")
 '''
 
-# filename = "C:/Users/Hen-PC/Desktop/Networking Course/Python/pythonProject/Python_Net4U_/File Handling/Files/test.txt" ## hello2_x לא קיים
-# file = open(filename , "x") # יוצר קובץ hello2_x
+# filename = "C:/Users/Hen-PC/Desktop/Networking Course/Python/pythonProject/Python_Net4U_/File Handling/Files/test.txt" ## test לא קיים
+# file = open(filename , "x") # יוצר קובץ test
 # file.close()
 
 filename = "C:/Users/Hen-PC/Desktop/Networking Course/Python/pythonProject/Python_Net4U_/File Handling/Files/hello3.txt"
