@@ -49,3 +49,8 @@ else:
     print("Instagram: You don't have enough money for the Instagram Campaign you need more " + str(instaMore) + "ILS\n\n-------------------------------")
 
 print("\nGood Bye.\n")
+
+'''
+Github link - 
+https://github.com/henmanzur/Python/blob/74b106248f86db85fc4e8c68d76708df757ffac2/Python%20Final%20Project/Exercise1.py
+'''
