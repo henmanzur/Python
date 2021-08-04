@@ -75,3 +75,8 @@ for t in range(turns):
     else:
         print("You LOSE!\n")
     print("you guessed " + str(counter) + " number/s correctly.\n-------------------------------\n")
+
+'''
+Github link -
+https://github.com/henmanzur/Python/blob/master/Python%20Final%20Project/Exercise2.py
+'''
